@@ -34,7 +34,7 @@ async function renderItems(name) {
       galleryLiteBox.refresh();
       return page +=1;
     }
-    Notiflix.Notify.warning('такого нет');
+    Notiflix.Notify.warning('ничего не найдено');
   } catch (error) {
     console.log(error);
   }
